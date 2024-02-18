@@ -30,7 +30,7 @@ h1{
     margin-bottom: -30px;
 }
 
-span:hover{
+span:hover, a:hover{
     background: url(https://i.gifer.com/7HHu.gif);
     background-size: cover;
     background-clip: text;
@@ -45,14 +45,6 @@ span:hover{
     background-color: black;
     padding: 10px;
     margin-right: 20px;
-}
-
-a:hover{
-    background: url(https://i.gifer.com/7HHu.gif);
-    background-size: cover;
-    background-clip: text;
-    color: transparent;
-    transition: 500ms;
 }
 
 a{
@@ -76,7 +68,7 @@ a{
     height: 500px;
     background-color: black;
     z-index: -1;
-    margin-top: -50px;
+    margin-top: -75px;
 }
 
 #members{
@@ -85,21 +77,46 @@ a{
     height: fit-content;
 }
 
+h3{
+    font-size: 45px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -2px;
+}
+
 .member{
     background-color: white;
     width: 200px;
     min-height: 300px;
     padding-top: 10px;
     float: left;
-    margin: 10px 10px 0 0;
+    margin: 10px 35px 0 0;
+    box-shadow: rgba(255, 249, 249, 0.4) 5px 5px, rgba(255, 249, 249, 0.3) 10px 10px, rgba(255, 249, 249, 0.2) 15px 15px, rgba(255, 249, 249, 0.1) 20px 20px, rgba(255, 249, 249, 0.05) 25px 25px;
 }
 
 .picture{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: black;
     margin: 0 auto;
+    background-size: cover;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.code_D001{
+    background-image: url(https://dmatteam.github.io/MDteam/PFP/D.png);
+}
+
+.code_M002{
+    background-image: url(https://dmatteam.github.io/MDteam/PFP/M.png);
+}
+
+.code_A003{
+    background-image: url(https://dmatteam.github.io/MDteam/PFP/A.png);
+}
+
+.code_T004{
+    background-image: url(https://dmatteam.github.io/MDteam/PFP/T.png);
 }
 
 .description{
@@ -107,4 +124,8 @@ a{
     width: fit-content;
     height: fit-content;
     text-align: center;
+}
+
+.name{
+    font-weight: bold;
 }
